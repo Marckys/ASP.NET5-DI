@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../Di.Core.Dto/Di.Core.Dto.csproj",
+      "bin": {
+        "assembly": "../../Di.Core.Dto/obj/{configuration}/Di.Core.Dto.dll",
+        "pdb": "../../Di.Core.Dto/obj/{configuration}/Di.Core.Dto.pdb"
+      }
+    }
+  }
+}

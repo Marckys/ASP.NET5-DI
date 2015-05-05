@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../Di.Core.Interfaces/Di.Core.Interfaces.csproj",
+      "bin": {
+        "assembly": "../../Di.Core.Interfaces/obj/{configuration}/Di.Core.Interfaces.dll",
+        "pdb": "../../Di.Core.Interfaces/obj/{configuration}/Di.Core.Interfaces.pdb"
+      }
+    }
+  }
+}

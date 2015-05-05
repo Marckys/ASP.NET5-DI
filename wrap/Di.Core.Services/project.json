@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../DepencyInyection.Core.Services/Di.Core.Services.csproj",
+      "bin": {
+        "assembly": "../../DepencyInyection.Core.Services/obj/{configuration}/Di.Core.Services.dll",
+        "pdb": "../../DepencyInyection.Core.Services/obj/{configuration}/Di.Core.Services.pdb"
+      }
+    }
+  }
+}

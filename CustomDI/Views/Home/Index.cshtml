@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@model IEnumerable<Di.Core.Dto.User>
+
+<div class="row">
+    <h1>Custom "Autofac" Dependency Injection</h1>
+    <div class="col-lg-12">
+        <ul>
+            @foreach (var user in Model)
+            {
+                <li>@user.Name</li>
+            }
+        </ul>
+    </div>
+</div>
+
